@@ -181,6 +181,13 @@ $cfg_db['Export']['htmlword_null'] = 'short_string';
 $cfg_db['Export']['ods_null'] = 'short_string';
 $cfg_db['Export']['odt_null'] = 'short_string';
 $cfg_db['Export']['odt_structure_or_data'] = $cfg_db['Export']['_sod_select'];
+$cfg_db['Export']['PDFDefaultPageSize'] = array(
+    'A3'     => 'A3',
+    'A4'     => 'A4',
+    'A5'     => 'A5',
+    'letter' => 'Letter',
+    'legal'  => 'Legal'
+);
 $cfg_db['Export']['texytext_structure_or_data'] = $cfg_db['Export']['_sod_select'];
 $cfg_db['Export']['texytext_null'] = 'short_string';
 

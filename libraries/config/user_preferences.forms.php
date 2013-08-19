@@ -265,6 +265,8 @@ $forms['Export']['Open_Document'] = array(
         ':group:' . __('Data'),
             'Export/odt_columns',
             'Export/odt_null');
+$forms['Export']['PDF'] = array(
+    'Export/PDFDefaultPageSize');
 $forms['Export']['Texy'] = array(
     'Export/texytext_structure_or_data',
     ':group:' . __('Data'),
